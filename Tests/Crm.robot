@@ -18,7 +18,7 @@ Should be able to add new customer
 
     #open the browser
     log                     Starting the test case!
-    open browser            https://automationplayground.com/crm/       edge
+    open browser            https://automationplayground.com/crm/       chrome
 
     # resize browser window for recording
     Set window position     x=341   y=169
