@@ -1,60 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.0 (Python 3.10.12 on linux)" generated="2024-03-10T11:58:49.049783" rpa="false" schemaversion="5">
+<robot generator="Robot 7.0 (Python 3.10.12 on linux)" generated="2024-03-10T13:05:31.346655" rpa="false" schemaversion="5">
 <suite id="s1" name="Crm" source="/home/sang/PycharmProjects/Robotframework/Tests/Crm.robot">
 <test id="s1-t1" name="Should be able to add new customer" line="12">
 <kw name="Set Selenium Speed" owner="SeleniumLibrary">
 <arg>.2s</arg>
 <doc>Sets the delay that is waited after each Selenium command.</doc>
-<status status="PASS" start="2024-03-10T11:58:49.324737" elapsed="0.000312"/>
+<status status="PASS" start="2024-03-10T13:05:31.491897" elapsed="0.000352"/>
 </kw>
 <kw name="Set Selenium Timeout" owner="SeleniumLibrary">
 <arg>10s</arg>
 <doc>Sets the timeout that is used by various keywords.</doc>
-<status status="PASS" start="2024-03-10T11:58:49.325277" elapsed="0.000215"/>
+<status status="PASS" start="2024-03-10T13:05:31.492474" elapsed="0.000211"/>
 </kw>
 <kw name="Log" owner="BuiltIn">
-<msg time="2024-03-10T11:58:49.325828" level="INFO">Starting the test case!</msg>
+<msg time="2024-03-10T13:05:31.493075" level="INFO">Starting the test case!</msg>
 <arg>Starting the test case!</arg>
 <doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2024-03-10T11:58:49.325682" elapsed="0.000211"/>
+<status status="PASS" start="2024-03-10T13:05:31.492884" elapsed="0.000261"/>
 </kw>
 <kw name="Open Browser" owner="SeleniumLibrary">
-<msg time="2024-03-10T11:58:49.326290" level="INFO">Opening browser 'chrome' to base url 'https://automationplayground.com/crm/'.</msg>
+<msg time="2024-03-10T13:05:31.493586" level="INFO">Opening browser 'chrome' to base url 'https://automationplayground.com/crm/'.</msg>
 <arg>https://automationplayground.com/crm/</arg>
 <arg>chrome</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2024-03-10T11:58:49.326098" elapsed="8.679515"/>
+<status status="PASS" start="2024-03-10T13:05:31.493384" elapsed="3.544687"/>
 </kw>
 <kw name="Set Window Position" owner="SeleniumLibrary">
 <arg>x=341</arg>
 <arg>y=169</arg>
 <doc>Sets window position using ``x`` and ``y`` coordinates.</doc>
-<status status="PASS" start="2024-03-10T11:58:58.006723" elapsed="0.577465"/>
+<status status="PASS" start="2024-03-10T13:05:35.038666" elapsed="0.304871"/>
 </kw>
 <kw name="Set Window Size" owner="SeleniumLibrary">
 <arg>width=1935</arg>
 <arg>height=1090</arg>
 <doc>Sets current windows size to given ``width`` and ``height``.</doc>
-<status status="PASS" start="2024-03-10T11:58:58.584645" elapsed="0.314072"/>
+<status status="PASS" start="2024-03-10T13:05:35.343967" elapsed="0.339301"/>
+</kw>
+<kw name="Click Link" owner="SeleniumLibrary">
+<msg time="2024-03-10T13:05:35.685106" level="INFO">Clicking link 'name= sign-in-link'.</msg>
+<arg>name= sign-in-link</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="PASS" start="2024-03-10T13:05:35.684029" elapsed="1.182244"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2024-03-10T11:59:01.899858" level="INFO">Slept 3 seconds.</msg>
+<msg time="2024-03-10T13:05:39.867794" level="INFO">Slept 3 seconds.</msg>
 <arg>3s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2024-03-10T11:58:58.899243" elapsed="3.000919"/>
+<status status="PASS" start="2024-03-10T13:05:36.866963" elapsed="3.001218"/>
 </kw>
 <kw name="Close Browser" owner="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" start="2024-03-10T11:59:01.900796" elapsed="0.263531"/>
+<status status="PASS" start="2024-03-10T13:05:39.868992" elapsed="0.300177"/>
 </kw>
 <doc>This is some basic info about the test</doc>
 <tag>1006</tag>
 <tag>Contacts</tag>
 <tag>Smoke</tag>
-<status status="PASS" start="2024-03-10T11:58:49.323704" elapsed="12.841101"/>
+<status status="PASS" start="2024-03-10T13:05:31.490839" elapsed="8.678887"/>
 </test>
 <doc>This is some basic info about the whole suite</doc>
-<status status="PASS" start="2024-03-10T11:58:49.051188" elapsed="13.114397"/>
+<status status="PASS" start="2024-03-10T13:05:31.347830" elapsed="8.822736"/>
 </suite>
 <statistics>
 <total>
