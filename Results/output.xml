@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.10.12 on linux)" generated="2024-03-09T23:57:02.169701" rpa="false" schemaversion="5">
+<suite id="s1" name="User" source="/home/sang/PycharmProjects/amazon/Tests/user.robot">
+<test id="s1-t1" name="User must sign in to browse studies" line="11">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-03-09T23:57:02.388758" level="INFO">Opening browser 'chrome' to base url 'https://www.userinterviews.com/'.</msg>
+<arg>https://www.userinterviews.com/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-03-09T23:57:02.388458" elapsed="11.688270"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-03-09T23:57:14.077419" elapsed="0.100326"/>
+</kw>
+<doc>This is some basic info about the test</doc>
+<tag>Smoke</tag>
+<status status="PASS" start="2024-03-09T23:57:02.387244" elapsed="11.791148"/>
+</test>
+<doc>This is some basic info about the whole suite</doc>
+<status status="PASS" start="2024-03-09T23:57:02.171668" elapsed="12.007782"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">Smoke</stat>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="User">User</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
